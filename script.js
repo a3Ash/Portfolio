@@ -29,7 +29,7 @@
         });
     }, observerOptions);
 
-    document.querySelectorAll('.fade-in').forEach(element => {
+    document.querySelectorAll('.fade-in, .pop-item').forEach(element => {
         observer.observe(element);
     });
 });

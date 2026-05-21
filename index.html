@@ -13,13 +13,14 @@
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <div class="logo">A3ASH</div>
+            <div class="logo">Md. Raiyan Haque Ashwas</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#education">Education</a></li>
+                <li><a href="#extracurriculars">Extracurriculars</a></li>
             </ul>
         </div>
     </nav>
@@ -53,8 +54,7 @@
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I am an Undergraduate Computer Science student at Rajshahi University of Engineering & Technology (RUET) currently bridging the gap between Machine Learning software and low-level Hardware RTL design.</p>
-                    <p>My core focus is Research & Development—translating complex algorithmic requirements into optimized, synthesis-aware silicon design (VLSI).</p>
+                    <p>I am an Undergraduate Computer Science student at <a href="https://www.ruet.ac.bd" target="_blank" rel="noopener">Rajshahi University of Engineering &amp; Technology (RUET)</a>.</p>
                 </div>
                 <div class="interests-box">
                     <h3>Research Interests</h3>
@@ -108,38 +108,59 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3><i class="fas fa-microchip" style="color: var(--primary); margin-right: 8px;"></i> Neural Semiconductor Ltd.</h3>
+                        <h3>Neural Semiconductor Ltd.</h3>
                         <h4>Industrial Attachment</h4>
                         <span class="date">Feb 2026</span>
                         <ul>
                             <li>Designed and implemented Verilog FSMs (Moore & Mealy) with synthesis-aware RTL coding.</li>
                             <li>Utilized Cadence Virtuoso and gpdk90 PDK for gate-level timing and load-aware simulations.</li>
-                            <li>Conducted static-hazard analysis and PVT corner verification.</li>
                         </ul>
+                    </div>
+                    <div class="logo-card">
+                        <img src="nsl.svg" alt="Neural Semiconductor logo" loading="lazy">
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3><i class="fas fa-book-open" style="color: var(--primary); margin-right: 8px;"></i> ACS Group</h3>
-                        <h4>Course Contributor</h4>
+                        <h3>ACS Group</h3>
+                        <h4>Course Contributor (Academic Physics & Chemistry)</h4>
                         <span class="date">Oct 2022 - Apr 2024</span>
                         <ul>
                             <li>Managed course operations for 100,000+ students and coordinated digital content pipelines.</li>
                             <li>Coordinated the ACS Chemistry Book Project, delivering the base version with a cross-functional team.</li>
                         </ul>
                     </div>
+                    <div class="logo-card">
+                        <img src="acs.svg" alt="ACS Group logo" loading="lazy">
+                    </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3><i class="fas fa-chalkboard-teacher" style="color: var(--primary); margin-right: 8px;"></i> 10 Minute School &amp; APAR's Classroom</h3>
-                        <h4>Content Team & Ambassador</h4>
-                        <span class="date">Oct 2020 - Mar 2022</span>
+                        <h3>10 Minute School</h3>
+                        <h4>Content Team (Academics)</h4>
+                        <span class="date">Sep 2021 - Mar 2022</span>
                         <ul>
-                            <li>Facilitated free courses by providing management support to 10,000+ students.</li>
-                            <li>Led 'Team Threadripper' and contributed academic content data entry.</li>
+                            <li>Proofread academic content and contributed to data entry for web platforms.</li>
                         </ul>
+                    </div>
+                    <div class="logo-card">
+                        <img src="10mslogo-svg.svg" alt="10 Minute School logo" loading="lazy">
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>APAR's Classroom</h3>
+                        <h4>Team Leader &amp; Ambassador</h4>
+                        <span class="date">Oct 2020 - Mar 2021</span>
+                        <ul>
+                            <li>Facilitated a free course by providing Facebook group management support to 10,000+ students and led a student team (Team Threadripper).</li>
+                        </ul>
+                    </div>
+                    <div class="logo-card">
+                        <img src="apars.png" alt="APAR's Classroom logo" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -178,7 +199,7 @@
                 <div class="project-card">
                     <div class="project-content">
                         <h3><i class="fas fa-shield-alt" style="color: var(--secondary); margin-right: 8px;"></i> Data Centre Security Control</h3>
-                        <p class="project-desc">Designed a NAND-only combinational logic circuit for Emergency Shutdown and Lockdown using Cadence Virtuoso (gpdk90), eliminating static hazards across PVT corners.</p>
+                        <p class="project-desc">Designed a NAND-only combinational logic circuit for Emergency Shutdown and Lockdown using Cadence Virtuoso (gpdk90), validated hazard-free operation across multiple load conditions.</p>
                         <div class="project-tags">
                             <span>Cadence Virtuoso</span><span>CMOS</span>
                         </div>
@@ -204,25 +225,90 @@
         
         <section id="education" class="fade-in">
             <div class="section-header">
-                <h2>Education & Extra Curriculars</h2>
+                <h2>Education</h2>
                 <div class="line"></div>
             </div>
-            <div class="edu-grid">
-                <div class="edu-card">
-                    <h3><i class="fas fa-university" style="color: var(--primary); margin-right: 8px;"></i> B.Sc. Engg. in Computer Science &amp; Engineering</h3>
-                    <h4>Rajshahi University of Engineering & Technology</h4>
-                    <span class="date">Jan 2023 - Jan 2027 (Expected)</span>
-                    <p>Core Coursework: Data Structures, Algorithms, Computer Architecture, Digital Logic Design, Microprocessors, Numerical Analysis, Digital Signal Processing, AI.</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3><i class="fas fa-university" style="color: var(--primary); margin-right: 8px;"></i> B.Sc. Engg. in Computer Science &amp; Engineering</h3>
+                        <h4><a href="https://www.ruet.ac.bd" target="_blank" rel="noopener">Rajshahi University of Engineering &amp; Technology</a></h4>
+                        <span class="date">Jan 2023 - Jan 2027 (Expected)</span>
+                        <p>Core Coursework: Structured &amp; Object-Oriented Programming, Data Structures &amp; Algorithms, Discrete Mathematics, Digital Logic Design, Microprocessors &amp; Embedded Systems, Computer Architecture, Numerical Analysis, Applied Statistics &amp; Probability, Automata Theory, Digital Signal Processing, Artificial Intelligence, Data Mining, Digital Image Processing.</p>
+                    </div>
+                    <div class="logo-card">
+                        <img class="logo-ruet" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/87/RUET_logo.svg/960px-RUET_logo.svg.png" alt="RUET logo" loading="lazy">
+                    </div>
                 </div>
-                <div class="edu-card extracurriculars">
-                    <h3>Leadership & Activities</h3>
-                    <ul>
-                        <li><i class="fas fa-caret-right"></i> Performance Secretary, RUET Cultural Club</li>
-                        <li><i class="fas fa-caret-right"></i> Organizing Secretary, Greater Dinajpur District Assoc.</li>
-                        <li><i class="fas fa-caret-right"></i> Top 170 (of 1000+) - Geeky Solutions LEARNATHON 3.0</li>
-                        <li><i class="fas fa-caret-right"></i> Top 50 (of 277) - Crackerjack 2.0 Case Competition</li>
-                        <li><i class="fas fa-caret-right"></i> Best Organizer - DDS Virtual Debate Festival 2021</li>
-                    </ul>
+            </div>
+        </section>
+
+        <section id="extracurriculars" class="fade-in">
+            <div class="section-header">
+                <h2>Extracurriculars &amp; Leadership</h2>
+                <div class="line"></div>
+            </div>
+            <div class="timeline scatter-timeline">
+                <div class="timeline-item pop-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Performance Secretary</h3>
+                        <h4>Onuronon - RUET Cultural Club</h4>
+                    </div>
+                    <div class="logo-card">
+                        <img src="Onuronon_logo.png" alt="Onuronon logo" loading="lazy">
+                    </div>
+                </div>
+                <div class="timeline-item pop-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Organizing Secretary</h3>
+                        <h4>Greater Dinajpur District Association, RUET</h4>
+                    </div>
+                    <div class="logo-card">
+                        <img src="gdda%20logo.png" alt="Greater Dinajpur District Association logo" loading="lazy">
+                    </div>
+                </div>
+                <div class="timeline-item pop-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Secretary of Marketing</h3>
+                        <h4>Ovijatrik - RUET Adventure Club</h4>
+                    </div>
+                    <div class="logo-card">
+                        <img src="Ovijatrik.jpg" alt="Ovijatrik logo" loading="lazy">
+                    </div>
+                </div>
+                <div class="timeline-item pop-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Top 170 (of 1000+)</h3>
+                        <h4>Geeky Solutions LEARNATHON 3.0</h4>
+                    </div>
+                    <div class="logo-card">
+                        <img src="Learnathon_logo_Blue-1-1024x205.png" alt="LEARNATHON logo" loading="lazy">
+                    </div>
+                </div>
+                <div class="timeline-item pop-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Top 50 (of 277)</h3>
+                        <h4>Crackerjack 2.0 Case Competition</h4>
+                    </div>
+                    <div class="logo-card logo-card-dark">
+                        <img src="crackerjack.svg" alt="Crackerjack logo" loading="lazy">
+                    </div>
+                </div>
+                <div class="timeline-item pop-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Best Organizer</h3>
+                        <h4>DDS Virtual Debate Festival 2021</h4>
+                    </div>
+                    <div class="logo-card">
+                        <img src="dds%20logo.png" alt="DDS logo" loading="lazy">
+                    </div>
                 </div>
             </div>
         </section>
@@ -230,12 +316,11 @@
 
     <footer id="contact">
         <div class="footer-content">
-            <h2>Let's build something impactful.</h2>
             <div class="footer-links">
                 <a href="mailto:mail.a3ash@gmail.com" class="btn primary">Email Me</a>
                 <a href="mailto:2103063@student.ruet.ac.bd" class="btn secondary">Academic Email</a>
             </div>
-            <p class="copyright">© 2026 Md. Raiyan Haque Ashwas. All rights reserved.</p>
+            <p class="copyright"> Â© 2026 Md. Raiyan Haque Ashwas. All rights reserved.</p>
         </div>
     </footer>
 
